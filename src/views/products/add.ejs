@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %> 
+<%- include('../partials/headerMain') %> 
+
+<body>
+    <div class="FormContainer">
+        <br>
+      <form>
+        <div class="formrow">
+          <div class="ImageLoad">
+              <div class="form-group" id="ProductName">
+                <label for="inputEmail4">Nombre</label>
+                <input type="email" class="form-control" id="ProductName" placeholder="Nombre">
+              </div>
+              
+              <div class="form-group id="ProductBrand">
+                <label for="inputPassword4">Marca</label>
+                <input type="password" class="form-control" id="ProductBrand" placeholder=Marca">
+              </div>
+              
+              <div class="form-group" id="ProductPrice">
+                <label for="inputAddress">Precio</label>
+                <input type="text" class="form-control" id="ProductPrice" placeholder="Precio">
+              </div>
+          </div>
+        </div>
+<br>
+        <div class="ImageContainer">
+
+          <div class="LoadImage">
+
+            <img class="ImgLoad" src="/images/products/default.jpg" alt="">
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+
+          <div class="ImageDescription">
+            <label for="inputAddress">Descripción del producto</label>
+            <textarea type="text" class="form-control" id="inputAddress" placeholder="Descripción"></textarea>
+          </div>
+
+        </div>
+
+        <br>
+        <div class="LoadImageBtn">
+          <button type="submit" class="btn btn-primary">Agregar producto</button>
+          <button type="submit" class="btn btn-primary">Limpiar Campos</button>
+          <a href="/" type="submit" class="btn btn-primary">Volver al inicio</a>
+        </div>
+
+      </form>
+
+    </div>
+          <!-- FOOTER-->
+<%- include('../partials/footerMain') %> 
+    </body>
+
+</html>

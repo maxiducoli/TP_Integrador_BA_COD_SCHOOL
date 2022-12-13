@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ('partials/headMain') %> 
+<body>
+   <%- include ('partials/header') %>
+    
+    <main class="main">
+      
+
+        <div class="col-12">
+            <h2 class="mb-3 text-primary">Listado de plantas</h2>
+        </div>
+
+  <section class="bg-light py-4 my-5">
+
+<% productos.forEach(producto => { %>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-3 text-primary"></h2>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card my-3">
+
+                    <img src="<%= producto.image %>" class="card-image-top" alt="thumbnail">
+
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="/products/product/<%= producto.id %>" class="text-secondary"><%= producto.name %></a></h3> </a></h3>
+                        <p class="card-text"><%= producto.description %> </p>
+                        <h5>Familia de planta: <%= producto.brand %> </h5>
+                        <a href="/products/product/<%= producto.id %>" class="btn btn-primary">Ver</a>
+                        <a href="/products/edit/<%= producto.id %>" class="btn btn-primary">Editar</a>
+                        <h6 class="Precio">Precio: <%= producto.price %> </h6>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+<% }) %>
+
+</section>
+
+
+    </main>
+<!-- FOOTER-->
+<%- include('partials/footerMain') %> 
+</body>
+</html>

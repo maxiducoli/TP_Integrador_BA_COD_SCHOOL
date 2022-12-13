@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Planta 1",
+    "brand": "Marca Planta",
+    "price": 100.0,
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "image": "/images/products/item0.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Planta 2",
+    "brand": "Marca Planta",
+    "price": "100.00",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "image": "/images/products/item1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Planta 3",
+    "brand": "Marca Planta",
+    "price": "100.00",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "image": "/images/products/item2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Planta 4",
+    "brand": "Marca Planta",
+    "price": "100.00",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "image": "/images/products/item3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Planta 5",
+    "brand": "Marca Planta",
+    "price": "100.00",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "image": "/images/products/item4.jpg"
+  }
+]

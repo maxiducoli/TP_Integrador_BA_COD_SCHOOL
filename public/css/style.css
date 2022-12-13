@@ -1,0 +1,164 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.header{
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   /* border: solid red 1px;*/
+    width: 100%;
+    margin: 0;
+}
+
+/*BARRA DE LOGO */
+.logo-container{
+   
+    /*border: solid red 1px;*/
+    display: flex;
+    margin: 0;
+    width: 50%;
+}
+.logo{
+    width: 100%;
+}
+
+/*BARRA DE BUSQUEDA */
+.search-container{
+    display: inline;
+    align-items: center;
+    /*border: solid green 1px;*/
+    width: 50%;
+    margin: 0;
+}
+.search-input {
+}
+.search-img
+{
+    width: 5%;
+    height: 5%;
+}
+
+/* MAIN */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: solid pink 1px;*/
+width : 100%;
+}
+.carousel-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width : 50%;
+    height : 50%;
+}
+/*FOOTER */
+.footer{
+    /*border: solid red 1px;*/
+    width: 100%;
+}
+.horizontalLine{
+    /*border: solid blue 3px;*/
+    width: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+/* LISTA DE PRODUCTOS */
+.ProductsContainer{
+    display: flex;
+    flex-direction: row;
+}
+.ccContainer{
+    display: flex;
+    flex-direction: row;
+}
+.FomrContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Precio{
+    display: flex;
+    justify-content: flex-end;
+}
+.ProductButtons{
+    display: flex;
+    justify-content: space-between;
+}
+#PruductImage{
+    display: flex;
+    flex-direction: column;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.FormContainer{
+    display: flex;
+    width: 80%;
+}
+.formrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.validationDefault01{
+    width: 60%;
+}
+.validationDefault02{
+    width: 25%;
+}
+.validationDefault03{
+    width: 15%;
+}
+.ImageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ImageLoad{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.ImgLoad{
+display: flex;
+flex-direction: column;
+width: 80%;
+}
+.LoadImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    
+}
+.ImageDescription{
+flex-direction: row;
+width: 80%;
+}
+.LoadImageBtn{
+    
+   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container{
+
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+ 
+}
