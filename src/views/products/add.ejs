@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <%- include('../partials/head') %> 
-<%- include('../partials/headerMain') %> 
 
 <body>
     <div class="FormContainer">
-        <br>
-      <form>
+      <div >
+        <h1 class="title">Agregar nuevo producto</h1>
+      </div>
+      <form id="formEdit" class="form-control" action="/products/add" method="post" enctype="multipart/form-data">
         <div class="formrow">
           <div class="ImageLoad">
-              <div class="form-group" id="ProductName">
-                <label for="inputEmail4">Nombre</label>
-                <input type="email" class="form-control" id="ProductName" placeholder="Nombre">
+            <div class="row">
+              <div class="col">
+                <label for="inputName4">Nombre</label>
+                <input type="text" name="name" id="ProductName" class="form-control" placeholder="Nombre del producto" value="" aria-label="Product name">
               </div>
-              
-              <div class="form-group id="ProductBrand">
-                <label for="inputPassword4">Marca</label>
-                <input type="password" class="form-control" id="ProductBrand" placeholder=Marca">
+              <div class="col">
+                <label name="brand" for="inputPassword4">Marca</label>
+                <input type="text" name="brand" id="ProductBrand" class="form-control" placeholder="Marca del producto" value="" aria-label="Product brand">
               </div>
-              
-              <div class="form-group" id="ProductPrice">
+
+              <div class="col" id="ProductPrice">
                 <label for="inputAddress">Precio</label>
-                <input type="text" class="form-control" id="ProductPrice" placeholder="Precio">
+                <input name="price" type="text" class="form-control" id="ProductPrice" placeholder="Precio del producto" value="" aria-label="Product Price">
               </div>
+
+            </div>
+
+
           </div>
         </div>
 <br>
         <div class="ImageContainer">
-
           <div class="LoadImage">
-
-            <img class="ImgLoad" src="/images/products/default.jpg" alt="">
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            <img name="image" class="ImgLoad" src="/images/products/default-image.jpg" alt="">
+            <div class="mb-3" id="imgLoadButton">
+                  <input class="form-control" type="file" name="image" id="formFile">
+            </div>
           </div>
-
-          <div class="ImageDescription">
-            <label for="inputAddress">Descripción del producto</label>
-            <textarea type="text" class="form-control" id="inputAddress" placeholder="Descripción"></textarea>
-          </div>
-
         </div>
+                  <div class="ImageDescription">
+            <label for="inputAddress">Descripción del producto</label>
+            <textarea type="text" class="form-control" name="description" id="Description" placeholder="Descripción del producto" value="" ></textarea>
+          </div>
 
         <br>
         <div class="LoadImageBtn">
           <button type="submit" class="btn btn-primary">Agregar producto</button>
-          <button type="submit" class="btn btn-primary">Limpiar Campos</button>
-          <a href="/" type="submit" class="btn btn-primary">Volver al inicio</a>
+        <a href="/" class="btn btn-primary">Volver al inicio</a>
         </div>
 
       </form>

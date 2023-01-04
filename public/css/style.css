@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: #606060;
     align-items: center;
     margin: 0;
 }
@@ -10,20 +11,15 @@ body{
 .header-container {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-   /* border: solid red 1px;*/
+    justify-content: space-between;
     width: 100%;
-    margin: 0;
 }
-
 /*BARRA DE LOGO */
 .logo-container{
-   
     /*border: solid red 1px;*/
     display: flex;
     margin: 0;
-    width: 50%;
+    width: 100%;
 }
 .logo{
     width: 100%;
@@ -34,10 +30,8 @@ body{
     display: inline;
     align-items: center;
     /*border: solid green 1px;*/
-    width: 50%;
+    width: 100%;
     margin: 0;
-}
-.search-input {
 }
 .search-img
 {
@@ -72,6 +66,9 @@ width : 100%;
 .links{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50%;
 }
 
 /* LISTA DE PRODUCTOS */
@@ -83,9 +80,11 @@ width : 100%;
     display: flex;
     flex-direction: row;
 }
-.FomrContainer{
+.FormContainer{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
 }
 .Precio{
     display: flex;
@@ -94,6 +93,7 @@ width : 100%;
 .ProductButtons{
     display: flex;
     justify-content: space-between;
+
 }
 #PruductImage{
     display: flex;
@@ -104,10 +104,7 @@ width : 100%;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.FormContainer{
-    display: flex;
-    width: 80%;
-}
+
 .formrow{
     display: flex;
     flex-direction: row;
@@ -125,40 +122,46 @@ width : 100%;
 .ImageContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .ImageLoad{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 .ImgLoad{
 display: flex;
-flex-direction: column;
-width: 80%;
+flex-direction: row;
+width: 100%;
+}
+#imgLoadButton
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
 }
 .LoadImage{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 50%;
+    width: 100%;
     
 }
 .ImageDescription{
 flex-direction: row;
-width: 80%;
+width: 100%;
 }
 .LoadImageBtn{
-    
-   
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
 }
 .container{
 
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
- 
+width: 60%;
+}
+.title{
+    color: rgb(22, 64, 250);
+    text-align: center;
+    font-weight: bold;
 }

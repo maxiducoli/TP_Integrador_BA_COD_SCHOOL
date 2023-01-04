@@ -7,21 +7,13 @@
             <a href="/"><img class="logo" src="/images/logo.png" alt="Logo"></a>
         </div>
         <div class="links">
-            <a href="/products/add">añadir Producto</a>
-
+            <a type="button" class="btn btn-primary" href="/products/add">Agregar Producto</a>
         </div>
         <div class="search-container"> 
-
-        </div>
-
-        <div class="search-container"> 
-
-        <input Class="search-input" id="searchWords" onclick="changeHREF()" type="text" placeholder="Buscar....">
-       
-                <a id="aURL" href="/">
-            <img class="search-img" type="button" src="/images/search.png" alt="Search">
-        </a>
-        </div>
+            <form action="/search" method="get" class="search-form">
+                <input type="text" name="search" Class="search-form_input" id="searchWords" placeholder="Buscar....">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+        </form>
         </div>
 
     </div>

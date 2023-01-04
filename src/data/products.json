@@ -1,42 +1,66 @@
 [
   {
     "id": 0,
-    "name": "Planta 1",
-    "brand": "Marca Planta",
-    "price": 100.0,
+    "name": "Planta 00",
+    "brand": "",
+    "price": 100,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "image": "/images/products/item0.jpg"
+    "image": "item0.jpg"
   },
   {
     "id": 1,
-    "name": "Planta 2",
+    "name": "Planta 01",
     "brand": "Marca Planta",
-    "price": "100.00",
+    "price": 100,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "image": "/images/products/item1.jpg"
+    "image": "item0.jpg"
   },
   {
     "id": 2,
-    "name": "Planta 3",
+    "name": "Planta 02",
     "brand": "Marca Planta",
-    "price": "100.00",
+    "price": 100,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "image": "/images/products/item2.jpg"
+    "image": "item1.jpg"
   },
   {
     "id": 3,
-    "name": "Planta 4",
+    "name": "Planta 03",
     "brand": "Marca Planta",
-    "price": "100.00",
+    "price": 100,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "image": "/images/products/item3.jpg"
+    "image": "item2.jpg"
   },
   {
     "id": 4,
-    "name": "Planta 5",
+    "name": "Planta 04",
     "brand": "Marca Planta",
-    "price": "100.00",
+    "price": 100,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
-    "image": "/images/products/item4.jpg"
+    "image": "item3.jpg"
+  },
+  {
+    "id": 5,
+    "name": "123123",
+    "brand": "3123123",
+    "price": 3123123,
+    "description": "3123123",
+    "image": "1672246847301.jpg"
+  },
+  {
+    "id": 6,
+    "name": "1111",
+    "brand": "2222",
+    "price": 333,
+    "description": "fdssdafsadfsdfsafas",
+    "image": "1672247522098.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "1111",
+    "brand": "2222",
+    "price": 333,
+    "description": "fdssdafsadfsdfsafas",
+    "image": "1672247541427.jpeg"
   }
 ]
